@@ -1,20 +1,38 @@
+/* Table of Contents:
+1. container
+2. header
+3. body
+4. footer
+5. navbar
+6. ul
+7. li a
+8. li a:hover
+*/
+
+/* 1. container */
 .container{
     width: 1200px;
     background-color: grey;
     margin: auto;
 }
 
+/* 2. header */
 .header{
     width: 1200px;
     height: 200px;
     background-color: darkgoldenrod;
 }
+
+/* 3. body */
 .body{
     width: 1000px;
-    height: 750px;
+    height: 100%;
     background-color: white;
     float: right;
+    text-align: center;
 }
+
+/* 4. footer */
 .footer{
     width: 1200%;
     height: 100px;
@@ -22,19 +40,23 @@
     float: left;
 }
 
-
+/* 5. navbar */
 .navbar{
     width: 200px;
-    height: 750px;
+    height: 100%;
     background-color: lightgrey;
     float: left;
 }
+
+/* 6. ul */
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
+
+/* 7. li a */
 li a {
     display: block;
     color: white;
@@ -42,6 +64,8 @@ li a {
     text-decoration: none;
     padding: 14px 16px;
 }
+
+/* 8. li a:hover */
 li a:hover{
     background-color: darkgoldenrod;
 }
