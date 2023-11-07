@@ -5,8 +5,9 @@
 4. footer
 5. navbar
 6. ul
-7. li a
-8. li a:hover
+7. ol
+8. li a
+9. li a:hover
 */
 
 /* 1. container */
@@ -34,9 +35,9 @@
 
 /* 4. footer */
 .footer{
-    width: 1200%;
+    width: 1200px;
     height: 100px;
-    background-color: white;
+    background-color: lightgray;
     float: left;
 }
 
@@ -56,7 +57,12 @@ ul{
     overflow: hidden;
 }
 
-/* 7. li a */
+/* 7. ol */
+ol{
+    background-color: teal;
+}
+
+/* 8. li a */
 li a {
     display: block;
     color: white;
@@ -65,7 +71,7 @@ li a {
     padding: 14px 16px;
 }
 
-/* 8. li a:hover */
+/* 9. li a:hover */
 li a:hover{
     background-color: darkgoldenrod;
 }
