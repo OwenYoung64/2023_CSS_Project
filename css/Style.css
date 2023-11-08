@@ -4,10 +4,12 @@
 3. body
 4. footer
 5. navbar
-6. ul
-7. ol
-8. li a
-9. li a:hover
+6. unordered list
+7. ordered list
+8. list insert within <a>
+9. hover over list
+10. image
+11.
 */
 
 /* 1. container */
@@ -37,7 +39,7 @@
 .footer{
     width: 1200px;
     height: 100px;
-    background-color: lightgray;
+    background-color: whitesmoke;
     float: left;
 }
 
@@ -49,7 +51,7 @@
     float: left;
 }
 
-/* 6. ul */
+/* 6. unordered list */
 ul{
     list-style-type: none;
     margin: 0;
@@ -57,12 +59,14 @@ ul{
     overflow: hidden;
 }
 
-/* 7. ol */
+/* 7. ordered list */
 ol{
     background-color: teal;
+    color: white;
+
 }
 
-/* 8. li a */
+/* 8. list insert within <a> */
 li a {
     display: block;
     color: white;
@@ -71,7 +75,12 @@ li a {
     padding: 14px 16px;
 }
 
-/* 9. li a:hover */
+/* 9. hover over list */
 li a:hover{
     background-color: darkgoldenrod;
+}
+
+/* 10. image */
+.image{
+    width: 100%;
 }
